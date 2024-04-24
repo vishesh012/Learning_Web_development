@@ -1,0 +1,7 @@
+/*I WIll be Maintaing Comment History as I Make progress in The course.    Date - 25-04-2024 Time - 02:30 AM*?*/
+/*CSS stands for Cascading Style Sheets and it is used for designing and responsiveness of web pages.*/
+/*We Link the CSS file to the HTML file using the link tag in the head section of the HTML file.*/
+body{    
+    background-color: red;
+    color: white;
+}
