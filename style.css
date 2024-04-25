@@ -5,3 +5,6 @@ body{
     background-color: red;
     color: white;
 }
+td{
+    border: 2px solid black;
+}
