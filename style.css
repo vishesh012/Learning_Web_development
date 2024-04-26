@@ -5,15 +5,14 @@
     background-color: red;
     color: white;
 }*/
-p{
-    background-color: aquamarine;
+.red{
+    color: red;
 }
-a{
-    background-color: rgb(240, 17, 17);
+
+#seconddiv{
+    background-color: red;
 }
-div{
-    background-color: yellow;
-}
-span{
-    background-color: purple
+
+.bg-yellow{
+    background-color: purple;
 }
