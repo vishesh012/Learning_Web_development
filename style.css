@@ -2,16 +2,43 @@
 /*CSS stands for Cascading Style Sheets and it is used for designing and responsiveness of web pages.*/
 /*We Link the CSS file to the HTML file using the link tag in the head section of the HTML file.*/
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+}
 .box{
-    width: 20vw;
-    height: 40vh;
+    height: 133px;
+    width: 80vw;
     border: 2px solid black;
-    overflow: scroll;
-    /* overflow-x: hidden;
-    overflow-y: scroll; */
-    overflow: hidden auto;
-    /* white-space: nowrap; */
-    /* overflow: ellispsis; */
-    /* text-overflow: ellipsis; */
-    /* overlay: clip; */
+    padding: 3px;
+    margin: 3px;
+
+}
+.box1{
+    background-color: blue;
+    top: -23px;
+    position: relative;
+     z-index: 1;/* (To get the box in front of the other box)*/
+}
+.box2{
+    background-color: red;
+    position: relative;
+    top: -30px;
+    left: 34px;
+    zin
+}
+.box3{
+    background-color: green;
+    position: fixed;
+    bottom: 0vw;
+    left: 8vw;
+}
+.box4{
+    background-color: yellow;
+}
+.parent{
+    position: relative;
+    padding: 43px;
+    margin: 34px;
+    border: 2px solid black;s
 }
