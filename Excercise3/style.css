@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200..800&family=Nova+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: rgb(160, 160, 160);
+}
+div.Main{
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 11px;
+    height: 473px;
+    width: 345px;
+    margin-left: 626px;
+    margin-top: 91px;
+}
+.Main img{
+    border-radius: 22px;
+    width: 333px;
+    height: 287px;
+    padding: 7px 6px 10px 6px;
+}
+#one{
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin-left: 22px;
+    padding: 2px 6px 2px 6px;
+    font-family: "Bebas Neue", sans-serif;
+
+}
+#two{
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin-left: 11px;
+    padding: 2px 6px 2px 6px;
+    font-family: "Bebas Neue", sans-serif;
+}
+#text{
+    font-family: "Bebas Neue", sans-serif;
+    margin-left: 19px;
+    margin-top: 11px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding: 4px 4px 17px 4px;
+}
+#three{
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin-left: 136px;
+    margin-top: 20px;
+    padding: 2px 6px 2px 6px;
+    font-family: "Bebas Neue", sans-serif;
+    background-color: #00FFFF;
+    color: #0076CE; 
+    font-family: "Dosis", sans-serif;    
+}
