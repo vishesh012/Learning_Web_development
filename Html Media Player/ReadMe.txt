@@ -1,4 +1,4 @@
-Challenge from Code with Harry
+Challenge 1 from Code with Harry
 
 We are given 12 media files : 6 audio & 6 video files.
 
