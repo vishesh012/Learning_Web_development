@@ -6,39 +6,21 @@
     margin: 0;
     padding: 0;
 }
-.box{
-    height: 133px;
-    width: 80vw;
-    border: 2px solid black;
-    padding: 3px;
-    margin: 3px;
-
+:root{
+    --color: blue;
+    --secolor: red;
 }
-.box1{
-    background-color: blue;
-    top: -23px;
-    position: relative;
-     z-index: 1;/* (To get the box in front of the other box)*/
+div.nav{
+    background-color: var(--secolor)
 }
-.box2{
-    background-color: red;
-    position: relative;
-    top: -30px;
-    left: 34px;
-    zin
+div.container{
+    background-color: var(--color)
 }
-.box3{
-    background-color: green;
-    position: fixed;
-    bottom: 0vw;
-    left: 8vw;
+ul{
+    display: flex
 }
-.box4{
-    background-color: yellow;
-}
-.parent{
-    position: relative;
-    padding: 43px;
-    margin: 34px;
-    border: 2px solid black;s
+ul li{
+    opacity: 0.6;
+    list-style: none;
+    padding: 35px;
 }
