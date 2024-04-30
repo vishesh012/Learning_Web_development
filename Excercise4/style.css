@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200..800&family=Indie+Flower&family=Nova+Mono&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --primarycolor : rgb(219, 58, 240);
+    --textcolor : rgb(255, 255, 255);
+    --bodycolor: rgb(156, 156, 156);
+}
+body{
+    background-color: var(--bodycolor);
+}
+nav{
+    background-color: var(--primarycolor);
+    padding: 12px 12px 12px 12px;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 23px 23px 23px 23px ;
+    color: var(--textcolor);   
+    font-weight: bolder;
+    font-family: "Indie Flower", cursive;;
+}
+ul li a{
+    text-decoration: rgb(6, 120, 220);
+}
