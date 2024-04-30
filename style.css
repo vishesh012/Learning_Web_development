@@ -3,3 +3,55 @@
 /*We Link the CSS file to the HTML file using the link tag in the head section of the HTML file.*/
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); */ /*This is the link to the google fonts. */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.container{
+    border: 2px solid white;
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    /* justify-content: flex-end; */
+    /* justify-content: right; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap; */
+    align-content: center;
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: row wrap; */
+    gap: 30px;
+    /* column-gap: 30px; */
+    /* row-gap: 100px; */
+    /* gap: 30px 40px; */
+}
+.item{
+    height: 62px;
+    width: 62px;
+    background-color: violet;
+    border: 2px solid white;
+    margin: 4px 4px 4px 4px;  
+    flex-grow: 1;
+}
+.order{
+    order: 1;
+}
+.order{
+    order: 2;
+}
+.order{
+    order: 3;
+}
+#test{
+    flex-grow: 2;
+    /* flex-shrink: 3; */
+    align-self: flex-end;
+    /* align-self: flex-start; */
+}
