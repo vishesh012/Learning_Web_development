@@ -8,23 +8,31 @@
     padding: 0px;
 }
 .container{
-    background-color: red;
-    width: 50vw;
-    height: 40vh;
+    background-color: aqua;
+    width: 30vw;
+    height: 80vh;
 }
 .box{
-    background-color: aqua;
-    width: 5vw;
-    height: 4vh;
-    transition-property: background-color,transform;
-    transition-duration: 3s;
-    transition-timing-function: ease-in-out;  ;
-    transition-delay: 1s;
-    /* transition: all 3s ease-in-out 1s; */
-
+    width: 34px;
+    height: 45px;
+    background-color: purple;
+    animation: myfirstanimation;
+    /* animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate-reverse; */
+    /* animation-play-state: paused; */
+    /* animation-play-state: paused; */
+    animation: myfirstanimation 3s 1 2s ease-in-out backwards ;
 }
-.translate{
-    transform: translateX(10vw) translateY(10vh);
-    background-color: blue;
-    
+
+@keyframes myfirstanimation{
+    from{
+        /* transform: translateX(10px); */
+        background-color: gray;
+    }
+    to{
+        transform: translateX(1000px);
+        background-color: blueviolet;
+    }
 }
