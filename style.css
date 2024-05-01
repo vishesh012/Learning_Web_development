@@ -7,25 +7,24 @@
     margin: 0px;
     padding: 0px;
 }
-body{
-    background-color: black;
+.container{
+    background-color: red;
+    width: 50vw;
+    height: 40vh;
 }
 .box{
-    height: 50px;
-    width: 50px;
-    border: 2px solid gray; 
-    background-color: beige;
-    /* transform: rotate(45deg); */
-    transform: rotateX(70deg);
-    /* transform: rotateY(40deg); */
-    /* transform: skew(20deg); */
-    transform: translate(60%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: aqua;
+    width: 5vw;
+    height: 4vh;
+    transition-property: background-color,transform;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;  ;
+    transition-delay: 1s;
+    /* transition: all 3s ease-in-out 1s; */
+
 }
-.container{
-    width: 80vh;
-    height: 100px;
-    border: 2px solid purple;
+.translate{
+    transform: translateX(10vw) translateY(10vh);
+    background-color: blue;
+    
 }
