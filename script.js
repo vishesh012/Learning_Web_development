@@ -1,32 +1,40 @@
 // Date - 25-04-2024 Time - 02:30 AM
 //we link the script.js file to the index.html file using the <script src> tag.
-console.log("Hello World!");
-
-var num1 = 5;
-let num2 = 10;
-let sum = num1 + num2;
-let name1 = "John";
-
-console.log(sum);
-console.log(typeof sum, typeof num1, typeof name1);
-
-const a1 = 6;
-// a1 = 10; can't change value because it is a constant
+console.log("Executing");
 
 {
-    let num1 = 13;
-    console.log(num1);
-}
-console.log(num1);
+  let age = 17;
+  let grace = 2;
 
-let obj ={
-    name: "John",
-    "job code": 32325, //writing Job role in quotes because it has a space in between
-    "Is Productive": true
-}
-console.log(obj);
+  age += grace;
+  console.log(age + grace);
+  console.log(age - grace);
+  console.log(age * grace);
+  console.log(age / grace);
+  console.log(age ** grace);
+  console.log(age % grace);
 
-obj.salary = "12cr";
-console.log(obj);
-obj.salary = "15cr";
-console.log(obj);
+  if (age + grace >= 18) {
+    console.log("You are eligible to Drive");
+  } else {
+    console.log("You are not eligible to Drive");
+  }
+}
+
+{
+  let num1 = 3;
+  let num2 = "3";
+  if (num1 === 3) {
+    //also checks if the data type is same or not
+    console.log("num1 is equal to 3");
+  } else if (num1 == 3) {
+    //checks if the value is same or not
+    console.log("num1 is equal to 3 in value");
+  } else {
+    console.log("num1 is not equal to 3");
+  }
+}
+/*
+    This is a multi-line 
+    comment
+*/
