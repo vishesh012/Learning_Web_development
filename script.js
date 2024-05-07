@@ -1,40 +1,38 @@
 // Date - 25-04-2024 Time - 02:30 AM
 //we link the script.js file to the index.html file using the <script src> tag.
 console.log("Executing");
+console.log("Learning Loop");
 
-{
-  let age = 17;
-  let grace = 2;
-
-  age += grace;
-  console.log(age + grace);
-  console.log(age - grace);
-  console.log(age * grace);
-  console.log(age / grace);
-  console.log(age ** grace);
-  console.log(age % grace);
-
-  if (age + grace >= 18) {
-    console.log("You are eligible to Drive");
-  } else {
-    console.log("You are not eligible to Drive");
-  }
+let num1;
+for (num1 = 0; num1 <= 100; num1++) {
+  console.log(num1);
 }
 
-{
-  let num1 = 3;
-  let num2 = "3";
-  if (num1 === 3) {
-    //also checks if the data type is same or not
-    console.log("num1 is equal to 3");
-  } else if (num1 == 3) {
-    //checks if the value is same or not
-    console.log("num1 is equal to 3 in value");
-  } else {
-    console.log("num1 is not equal to 3");
-  }
+let obj = {
+  name: "Nikhil",
+  role: "Developer",
+  age: 21,
+  company: "Google",
 }
-/*
-    This is a multi-line 
-    comment
-*/
+for (const key in obj) {
+  // if (Object.hasOwnProperty.call(obj, key)) {
+  const element = obj[key];
+  console.log(key, element);
+}
+
+for (const iterator of "Vishesh") {
+  console.log(iterator);
+
+}
+
+
+let i = 5;
+while (i < 10) {
+  console.log(i);
+  i++;
+}
+let num2 = 10
+do {
+  num2++;
+  console.log(num2);
+} while (num2 < 0); //Do while loop will execute atleast once even if the condition is false.
