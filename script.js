@@ -1,9 +1,27 @@
-alert("Hello, World!")
-// The alert() function displays an alert box with a specified message and an OK button.
-console.log("Executed the script.js file successfully!")
-// The console.log() method writes a message to the console. The console is useful for testing purposes.
+let arr = [1,2,3,4,5,6,7,8,9,10];
+// Index : 0,1,2,3,4,5,6,7,8,9
 
-var name = prompt("What is your name?");
-// The prompt() function displays a dialog box that prompts the visitor for input. The value entered by the user is stored in the variable name.
-console.log("The user's name is " + name);
-// The prompt() function displays a dialog box that prompts the visitor for input. The console.log() method writes a message to the console.
+arr[0] = 342;
+console.log(arr);
+console.log(arr.length);
+console.log(arr[0]);
+console.log(arr[1]);
+console.log(arr[5]);
+
+console.log("Array in String Format " + arr.toString());
+console.log("Array in String Format " + arr.join(" - "));
+console.log(arr.pop());
+console.log(arr.push(100));
+console.log(arr);
+console.log(arr.shift());
+console.log(arr.unshift());
+
+let a = "Hello";
+console.log(a);
+a[0] = "J";
+// a[0] = "J" is not working because string is immutable
+console.log(a);
+
+document.title = "I am Robot";
+console.log(document.title);
+console.log(document.body);
