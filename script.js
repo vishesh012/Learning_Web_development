@@ -1,27 +1,18 @@
-let arr = [1,2,3,4,5,6,7,8,9,10];
-// Index : 0,1,2,3,4,5,6,7,8,9
+let button = document.getElementById("btn")
 
-arr[0] = 342;
-console.log(arr);
-console.log(arr.length);
-console.log(arr[0]);
-console.log(arr[1]);
-console.log(arr[5]);
+button.addEventListener("dblclick", ()=>{
+    // alert("Button has been clicked")
+    document.querySelector(".box").innerHTML= "<b>Button has been clicked</b>"
+    console.log("Operation Running")
+})
 
-console.log("Array in String Format " + arr.toString());
-console.log("Array in String Format " + arr.join(" - "));
-console.log(arr.pop());
-console.log(arr.push(100));
-console.log(arr);
-console.log(arr.shift());
-console.log(arr.unshift());
+button.addEventListener("contextmenu", ()=>{
+    alert("Doing R&D")
+    console.log("Doing R&D")
+})
 
-let a = "Hello";
-console.log(a);
-a[0] = "J";
-// a[0] = "J" is not working because string is immutable
-console.log(a);
+document.addEventListener("keydown", (e)=>{
+    console.log(e.key,e.keyCode)  
+})
 
-document.title = "I am Robot";
-console.log(document.title);
-console.log(document.body);
+
