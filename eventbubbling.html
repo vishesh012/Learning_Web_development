@@ -57,6 +57,23 @@
             alert("container was clicked")
             console.log("container was clicked")
         })
+
+        function getrandomcolor() {
+            let val1 = Math.ceil(0+Math.random()* 225);
+            let val2 = Math.ceil(0+Math.random()* 225);
+            let val3 = Math.ceil(0+Math.random()* 225);
+            return `rgb(${val1}, ${val2}, ${val3})`
+        }
+
+        // let a = setInterval(() => {
+        //     document.querySelector(".childcontainer").style.backgroundColor = getrandomcolor()
+        // }, 100);
+        // console.log(a)
+
+        let a = setTimeout(() => {
+            document.querySelector(".childcontainer").style.backgroundColor = getrandomcolor()
+        }, 5000);
+        console.log(a)
     </script>
 </body>
 </html>
